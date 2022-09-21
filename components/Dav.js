@@ -6,7 +6,7 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export function Dav(props) {
-  const { nodes, materials } = useGLTF("/5D BUARFE DELUXE.gltf");
+  const { nodes, materials } = useGLTF("/3D CORDOBA PREMIUM.gltf");
   return (
     <group {...props} dispose={null}>
       <group position={[0, 0, 0.01]}>
@@ -33,4 +33,4 @@ export function Dav(props) {
   );
 }
 
-useGLTF.preload("/5D BUARFE DELUXE.gltf");
+useGLTF.preload("/3D CORDOBA PREMIUM.gltf");
